@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <h2 class="logo">Portfolio</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="container">
+        <div class="hero">
+            <img src="c:\Users\GIDEON KAINDI\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\FC8F2D1FBE53C044343C471137747E8050B1DD30\transfers\2026-06\WhatsApp Image 2026-02-10 at 12.37.34.jpeg" alt="Your Name" class="profile-img">
+            <div class="hero-text">
+                <h1>Hi, I'm  GIDEON KWESI</h1>
+                <p>Welcome to my professional e-portfolio. I am a passionate in web development and the operations in the tech world and my focus is on delivering digital solutions.</p>
+            </div>
+        </div>
+    </header>
+
+    <section id="services" class="container">
+        <h2>Services I Offer</h2>
+        <ul class="services-list">
+            <li><strong>Web Development:</strong> Creating responsive and modern websites.</li>
+            <li><strong>UI/UX Design:</strong> Designing user-friendly interfaces.</li>
+            <li><strong>Graphic Design:</strong> Crafting visual identities and assets.</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email Address" required>
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="formFeedback"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
