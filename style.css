@@ -1,0 +1,25 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Arial', sans-serif; line-height: 1.6; color: #333; background: #f4f4f4; }
+.container { max-width: 900px; margin: auto; padding: 2rem; }
+
+/* Navigation */
+nav { background: #2c3e50; color: white; padding: 1rem 0; position: sticky; top: 0; z-index: 100; }
+nav .container { display: flex; justify-content: space-between; align-items: center; padding: 0 2rem; }
+nav ul { display: flex; list-style: none; }
+nav ul li a { color: white; text-decoration: none; margin-left: 20px; font-weight: bold; }
+
+/* Home Section */
+.hero { display: flex; align-items: center; gap: 2rem; background: white; padding: 2rem; border-radius: 10px; margin-top: 2rem; }
+.profile-img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 5px solid #2c3e50; }
+.highlight { color: #e67e22; }
+
+/* Services List */
+.services-list { background: #fff; padding: 2rem; border-radius: 10px; list-style-type: square; margin-left: 20px; }
+.services-list li { margin-bottom: 10px; font-size: 1.1rem; }
+
+/* Form Styles */
+form { display: flex; flex-direction: column; gap: 10px; background: white; padding: 2rem; border-radius: 10px; }
+input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+button { background: #2c3e50; color: white; padding: 10px; border: none; cursor: pointer; border-radius: 5px; }
+button:hover { background: #34495e; }
+#formFeedback { margin-top: 10px; font-weight: bold; color: green; }
